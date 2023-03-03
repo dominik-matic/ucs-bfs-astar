@@ -1,4 +1,4 @@
-#UCS BFS AStar algorithms
+# UCS BFS AStar algorithms
 
 Usage:
 
@@ -7,6 +7,7 @@ Usage:
 Examples of state and heuristic files can be found in the maps folder.
 
 Concrete examples executed from the src folder:
-	./main --ss ../maps/ai.txt --alg ucs --h ../maps/ai_fail_heuristic.txt 
-	./main --ss ../maps/ai.txt --alg astar --h ../maps/ai_pass_heuristic.txt
-	./main --ss ../maps/ai.txt --alg bfs
+
+	main --ss ../maps/ai.txt --alg ucs --h ../maps/ai_fail_heuristic.txt 
+	main --ss ../maps/ai.txt --alg astar --h ../maps/ai_pass_heuristic.txt
+	main --ss ../maps/ai.txt --alg bfs
