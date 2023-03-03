@@ -24,6 +24,6 @@ Names of nodes can be anything as long as they're consistent between the state a
 
 Concrete examples executed from the src folder:
 
-	main --ss ../maps/ai.txt --alg ucs --h ../maps/ai_fail_heuristic.txt 
+	main --ss ../maps/ai.txt --alg ucs
 	main --ss ../maps/ai.txt --alg astar --h ../maps/ai_pass_heuristic.txt
 	main --ss ../maps/ai.txt --alg bfs
